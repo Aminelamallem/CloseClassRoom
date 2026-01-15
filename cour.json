@@ -4,40 +4,479 @@
     "title": "HTML",
     "description": "Apprendre la structure d’un site web",
     "image": "images-Cours/html.png",
-    "lien": "html.html"
-   
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction au HTML",
+        "image": "images-Cours/html.png",
+        "contenu": "Le HyperText Markup Language (HTML) est le fondement de toute page web. Il utilise un système de balises imbriquées pour définir la sémantique du contenu. Une structure de base commence par la déclaration <!DOCTYPE html>, suivie des balises <html>, <head> (pour les métadonnées) et <body> (pour le contenu visible)."
+      },
+      {
+        "titre": "Les balises",
+        "image": "images-Cours/html.png",
+        "contenu": "Les balises HTML structurent le texte : <h1> à <h6> pour les titres, <p> pour les paragraphes, et <a> pour les liens hypertextes (ex: <a href='url'>Texte</a>). Les balises auto-fermantes comme <img> permettent d'insérer des images, tandis que les listes <ul> et <li> organisent les données."
+      },
+      {
+        "titre": "Formulaires et Sémantique",
+        "image": "images-Cours/html.png",
+        "contenu": "Le HTML5 a introduit des balises sémantiques comme <header>, <footer> et <section> pour améliorer le SEO. Les formulaires (<form>) permettent de collecter des données utilisateur via des champs <input>, <textarea> et <button>, essentiels pour l'interactivité."
+      }
+    ]
   },
   {
     "id": 2,
     "title": "CSS",
     "description": "Styliser un site web",
     "image": "images-Cours/css.png",
-    "lien": "css.html"
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction au CSS",
+        "image": "images-Cours/css.png",
+        "contenu": "Le CSS (Cascading Style Sheets) sépare le fond de la forme. Il utilise des sélecteurs pour cibler des éléments HTML et leur appliquer des propriétés : color pour le texte, background-color pour le fond, et font-size pour la taille. Le 'modèle de boîte' (box model) est crucial, englobant margin, border, padding et content."
+      },
+      {
+        "titre": "Flexbox et Grid",
+        "image": "images-Cours/css.png",
+        "contenu": "Flexbox est un module de mise en page unidimensionnel idéal pour aligner des éléments en ligne ou en colonne (display: flex). CSS Grid est un système bidimensionnel (lignes et colonnes) permettant de concevoir des structures complexes et responsives avec des propriétés comme grid-template-columns."
+      },
+      {
+        "titre": "Animations et Responsive",
+        "image": "images-Cours/css.png",
+        "contenu": "Le CSS permet de créer des transitions et animations fluides avec @keyframes. Le Responsive Design, via les Media Queries (@media), assure que le site s'adapte parfaitement à toutes les tailles d'écran, du mobile au desktop."
+      }
+    ]
   },
   {
     "id": 3,
     "title": "JavaScript",
     "description": "Rendre un site web interactif",
     "image": "images-Cours/javascript.png",
-    "lien": "javascript.html"
-    
+    "lien": "javascript.html",
+    "parties": [
+      {
+        "titre": "Bases du JavaScript",
+        "image": "images-Cours/javascript.png",
+        "contenu": "JavaScript est un langage de script polyvalent. Les bases incluent la déclaration de variables (let, const), les types de données (string, number, boolean), et les structures de contrôle comme les conditions (if/else) et les boucles (for, while). Les fonctions permettent de modulariser et réutiliser le code."
+      },
+      {
+        "titre": "DOM & événements",
+        "image": "images-Cours/javascript.png",
+        "contenu": "Le Document Object Model (DOM) est l'interface de programmation pour HTML. JavaScript peut modifier le contenu (innerHTML), le style ou les attributs des éléments en temps réel. L'utilisation de addEventListener permet de capturer les actions de l'utilisateur comme 'click', 'submit' ou 'keydown'."
+      },
+      {
+        "titre": "Asynchronisme et API",
+        "image": "images-Cours/javascript.png",
+        "contenu": "Le JavaScript moderne gère les tâches asynchrones via les Promises et async/await. Cela permet de charger des données depuis des API externes sans recharger la page, transformant un site statique en une application dynamique."
+      }
+    ]
   },
   {
     "id": 4,
     "title": "React",
     "description": "Créer des interfaces utilisateur dynamiques",
-    "image": "images-Cours/react.png"
+    "image": "images-Cours/react.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction à React",
+        "image": "images-Cours/react.png",
+        "contenu": "React est une bibliothèque JavaScript basée sur des composants. Il utilise le JSX (une extension de syntaxe proche du HTML) et un DOM virtuel pour optimiser les mises à jour de l'affichage. Les concepts clés sont les 'props' pour passer des données et le 'state' (via le hook useState) pour gérer les données locales changeantes."
+      },
+      {
+        "titre": "Hooks et Cycle de vie",
+        "image": "images-Cours/react.png",
+        "contenu": "Les Hooks comme useEffect permettent de gérer les effets secondaires (appels API, timers) dans les composants fonctionnels. Ils remplacent les anciennes méthodes de cycle de vie des classes, rendant le code plus lisible et réutilisable."
+      },
+      {
+        "titre": "Gestion d'état global",
+        "image": "images-Cours/react.png",
+        "contenu": "Pour les applications complexes, React utilise le Context API ou des bibliothèques externes comme Redux. Cela permet de partager des informations (comme le profil utilisateur ou un panier) entre des composants éloignés sans passer par les props manuellement."
+      }
+    ]
   },
   {
     "id": 5,
     "title": "Node.js",
     "description": "Développer le backend d’une application web",
-    "image": "images-Cours/nodejs.png"
+    "image": "images-Cours/nodejs.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Node.js & npm",
+        "image": "images-Cours/nodejs.png",
+        "contenu": "Node.js est un environnement d'exécution JavaScript côté serveur basé sur le moteur V8 de Chrome. Il utilise une architecture non-bloquante orientée événements. npm (Node Package Manager) permet d'installer des modules tiers (comme Express pour le web) et de gérer les dépendances du projet via le fichier package.json."
+      },
+      {
+        "titre": "Express.js et Routage",
+        "image": "images-Cours/nodejs.png",
+        "contenu": "Express est le framework standard pour Node.js. Il simplifie la création de serveurs web en gérant les routes (GET, POST, etc.) et les middlewares, permettant de structurer facilement une API REST performante."
+      },
+      {
+        "titre": "Système de fichiers et Streams",
+        "image": "images-Cours/nodejs.png",
+        "contenu": "Node.js offre des modules natifs comme 'fs' pour interagir avec le système de fichiers du serveur. Les Streams permettent de traiter de gros volumes de données (vidéos, logs) de manière efficace en les lisant par morceaux (chunks)."
+      }
+    ]
   },
   {
     "id": 6,
     "title": "Python",
     "description": "Langage polyvalent pour le web et la data",
-    "image": "images-Cours/python.png"
+    "image": "images-Cours/python.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Bases de Python",
+        "image": "images-Cours/python.png",
+        "contenu": "Python se distingue par sa syntaxe claire et l'utilisation de l'indentation pour définir les blocs de code. Il supporte les listes, dictionnaires et tuples nativement. Très prisé en Data Science (Pandas, NumPy) et en développement web (Django, Flask), c'est un langage interprété au typage dynamique."
+      },
+      {
+        "titre": "POO en Python",
+        "image": "images-Cours/python.png",
+        "contenu": "La Programmation Orientée Objet en Python permet de créer des classes et des objets pour structurer le code. On y apprend l'utilisation de 'self', des constructeurs (__init__) et de l'héritage pour construire des applications modulaires."
+      },
+      {
+        "titre": "Bibliothèques et Écosystème",
+        "image": "images-Cours/python.png",
+        "contenu": "La force de Python réside dans ses bibliothèques. Pip permet d'installer des outils pour l'automatisation (Selenium), le web (BeautifulSoup) ou l'intelligence artificielle (Scikit-learn), rendant le langage extrêmement polyvalent."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Java",
+    "description": "Langage orienté objet populaire",
+    "image": "images-Cours/java.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction à Java",
+        "image": "images-Cours/java.png",
+        "contenu": "Java est un langage compilé en bytecode, s'exécutant sur la Java Virtual Machine (JVM), ce qui le rend portable ('Write Once, Run Anywhere'). Il est strictement typé et fortement utilisé dans les systèmes bancaires, les applications Android et les architectures d'entreprise de grande échelle."
+      },
+      {
+        "titre": "Classes et objets",
+        "image": "images-Cours/java.png",
+        "contenu": "Tout en Java est un objet. Une classe est un plan (blueprint) définissant des attributs (champs) et des comportements (méthodes). Le cours couvre l'encapsulation (private/public), l'héritage pour la réutilisation de code, et le polymorphisme pour traiter des objets de types différents de manière uniforme."
+      },
+      {
+        "titre": "Exceptions et Collections",
+        "image": "images-Cours/java.png",
+        "contenu": "La gestion des erreurs via try/catch est primordiale en Java. Le framework Collections (ArrayList, HashMap) permet de gérer dynamiquement des groupes d'objets, offrant des structures de données robustes pour des applications complexes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "C++",
+    "description": "Langage puissant pour la programmation système",
+    "image": "images-Cours/c++.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction au C++",
+        "image": "images-Cours/c++.png",
+        "contenu": "Le C++ est une extension du langage C incluant la programmation orientée objet. Il offre un contrôle précis sur les ressources matérielles et la gestion de la mémoire. C'est le langage de choix pour les applications de haute performance : moteurs de jeux (Unreal Engine), trading haute fréquence et systèmes d'exploitation."
+      },
+      {
+        "titre": "Variables et fonctions",
+        "image": "images-Cours/c++.png",
+        "contenu": "Le C++ utilise des types de données statiques (int, double, char). Ce cours aborde la déclaration des fonctions, le passage de paramètres par valeur ou par référence (&), ainsi que la gestion de la mémoire avec les pointeurs (*) et les références, piliers de l'efficacité du langage."
+      },
+      {
+        "titre": "STL et Templates",
+        "image": "images-Cours/c++.png",
+        "contenu": "La Standard Template Library (STL) fournit des conteneurs (vector, map) et des algorithmes optimisés. Les Templates permettent d'écrire du code générique capable de fonctionner avec n'importe quel type de donnée, maximisant la réutilisation du code."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "PHP",
+    "description": "Langage côté serveur pour le web",
+    "image": "images-Cours/php.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction au PHP",
+        "image": "images-Cours/php.png",
+        "contenu": "PHP (Hypertext Preprocessor) est un langage de script côté serveur intégré au HTML. Il permet de générer des pages dynamiques en communiquant avec le serveur avant que la page ne soit envoyée au client. Il est à la base de CMS célèbres comme WordPress et de frameworks puissants comme Laravel."
+      },
+      {
+        "titre": "Formulaires et bases de données",
+        "image": "images-Cours/php.png",
+        "contenu": "PHP excelle dans le traitement des données utilisateur via les superglobales $_GET et $_POST. Il s'interface facilement avec MySQL via l'extension PDO (PHP Data Objects), permettant d'exécuter des requêtes SQL sécurisées pour enregistrer, modifier ou supprimer des informations dans une base de données."
+      },
+      {
+        "titre": "Sessions et Sécurité",
+        "image": "images-Cours/php.png",
+        "contenu": "La gestion des sessions ($_SESSION) permet de maintenir l'état de l'utilisateur (connexion). Ce module aborde aussi la sécurité : protection contre les injections SQL, les failles XSS et le hachage des mots de passe avec password_hash()."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Ruby",
+    "description": "Langage simple pour le développement web",
+    "image": "images-Cours/ruby.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Bases de Ruby",
+        "image": "images-Cours/ruby.png",
+        "contenu": "Ruby est conçu pour la productivité et le bonheur du développeur, avec une syntaxe très proche de l'anglais. C'est un langage purement orienté objet (tout est objet). Il est indissociable du framework Ruby on Rails, qui suit la philosophie 'Convention over Configuration' pour créer des applications web rapidement."
+      },
+      {
+        "titre": "Blocs et Itérateurs",
+        "image": "images-Cours/ruby.png",
+        "contenu": "Ruby utilise intensément les blocs (do...end) et les itérateurs comme .each ou .map. Cette approche élégante permet de manipuler des collections de données de manière concise et expressive, sans les boucles 'for' traditionnelles."
+      },
+      {
+        "titre": "Ruby on Rails",
+        "image": "images-Cours/ruby.png",
+        "contenu": "Rails est le framework qui a rendu Ruby célèbre. Il utilise l'architecture MVC (Modèle-Vue-Contrôleur). On y découvre les migrations de base de données, Active Record pour la gestion des données et le système de 'scaffolding' pour générer du code automatiquement."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "TypeScript",
+    "description": "JavaScript avec typage",
+    "image": "images-Cours/typescript.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction à TypeScript",
+        "image": "images-Cours/typescript.png",
+        "contenu": "TypeScript est un sur-ensemble (superset) de JavaScript qui ajoute un typage statique optionnel. Il permet de détecter les erreurs de développement dès la compilation. Il introduit des concepts comme les interfaces, les enums et les génériques, rendant le code plus robuste et facile à maintenir dans les grands projets."
+      },
+      {
+        "titre": "Interfaces et Types",
+        "image": "images-Cours/typescript.png",
+        "contenu": "Les interfaces et les 'Type Aliases' permettent de définir la forme exacte des objets. Cela assure que les fonctions reçoivent les bonnes données, réduisant ainsi drastiquement les bugs liés aux types 'undefined' ou 'null' fréquents en JS."
+      },
+      {
+        "titre": "Configuration et Compilation",
+        "image": "images-Cours/typescript.png",
+        "contenu": "Le fichier tsconfig.json permet de configurer le compilateur (tsc). On y apprend à cibler différentes versions de JavaScript (ES5, ES6) et à intégrer TypeScript dans des workflows modernes avec Webpack ou Vite."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "SQL",
+    "description": "Langage pour gérer des bases de données",
+    "image": "images-Cours/sql.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction au SQL",
+        "image": "images-Cours/sql.png",
+        "contenu": "Le Structured Query Language (SQL) est le langage standard pour interagir avec les bases de données relationnelles (MySQL, PostgreSQL, SQL Server). Les commandes de base incluent SELECT pour lire, INSERT pour ajouter, UPDATE pour modifier et DELETE pour supprimer des enregistrements dans des tables."
+      },
+      {
+        "titre": "Requêtes avancées",
+        "image": "images-Cours/sql.png",
+        "contenu": "Ce module traite des jointures (JOIN) pour lier plusieurs tables entre elles, des fonctions d'agrégation (SUM, AVG, COUNT) et du regroupement de données (GROUP BY). Vous apprendrez également à utiliser les sous-requêtes et les index pour optimiser les performances de recherche."
+      },
+      {
+        "titre": "Conception de BDD",
+        "image": "images-Cours/sql.png",
+        "contenu": "Apprenez à modéliser une base de données avec les clés primaires et étrangères. Ce cours couvre les formes normales pour éviter la redondance et garantir l'intégrité des données via des contraintes (NOT NULL, UNIQUE, CHECK)."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Swift",
+    "description": "Langage pour créer des apps iOS",
+    "image": "images-Cours/swift.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Bases de Swift",
+        "image": "images-Cours/swift.png",
+        "contenu": "Swift est le langage moderne d'Apple, conçu pour remplacer l'Objective-C. Il est sûr, rapide et interactif. Il introduit des concepts comme les 'Optionals' pour gérer l'absence de valeur et une gestion de mémoire automatique (ARC). C'est l'outil indispensable pour le développement sur iPhone, iPad et Mac via Xcode."
+      },
+      {
+        "titre": "SwiftUI et Interface",
+        "image": "images-Cours/swift.png",
+        "contenu": "SwiftUI est le framework déclaratif d'Apple pour construire des interfaces. Au lieu de manipuler des vues complexes, on décrit l'état de l'interface, et SwiftUI s'occupe de la mise à jour, facilitant grandement le design d'apps modernes."
+      },
+      {
+        "titre": "Protocoles et Extensions",
+        "image": "images-Cours/swift.png",
+        "contenu": "La programmation orientée protocole est au cœur de Swift. Les protocoles définissent des contrats de comportement, tandis que les extensions permettent d'ajouter des fonctionnalités à des types existants sans modifier leur code source original."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Kotlin",
+    "description": "Langage moderne pour Android",
+    "image": "images-Cours/kotlin.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction à Kotlin",
+        "image": "images-Cours/kotlin.png",
+        "contenu": "Kotlin est le langage privilégié par Google pour le développement Android. Il est 100% interopérable avec Java mais offre une syntaxe plus concise et sécurisée, notamment en éliminant les erreurs de type 'NullPointerException' grâce à son système de types 'null-safe'."
+      },
+      {
+        "titre": "Coroutines et Async",
+        "image": "images-Cours/kotlin.png",
+        "contenu": "Les coroutines Kotlin simplifient la programmation asynchrone sur mobile. Elles permettent d'effectuer des requêtes réseau ou des opérations lourdes sans bloquer l'interface utilisateur (Main Thread), garantissant une application fluide."
+      },
+      {
+        "titre": "Jetpack Compose",
+        "image": "images-Cours/kotlin.png",
+        "contenu": "À l'instar de SwiftUI, Jetpack Compose est la réponse moderne d'Android pour créer des UI natives. On apprend à créer des composants réutilisables et à gérer les thèmes de l'application de manière purement programmatique."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Go",
+    "description": "Langage performant pour le backend",
+    "image": "images-Cours/go.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Bases de Go",
+        "image": "images-Cours/go.png",
+        "contenu": "Go (ou Golang), créé par Google, est conçu pour la simplicité et l'efficacité. Il excelle dans la programmation concurrente grâce aux 'goroutines' (threads légers). C'est un langage compilé produisant des binaires statiques, très utilisé pour les infrastructures cloud, les microservices et Docker/Kubernetes."
+      },
+      {
+        "titre": "Concurrence et Channels",
+        "image": "images-Cours/go.png",
+        "contenu": "Les Channels sont le moyen de communication entre goroutines. En Go, on ne partage pas la mémoire pour communiquer, on communique pour partager la mémoire. Cela évite les problèmes classiques de synchronisation (deadlocks)."
+      },
+      {
+        "titre": "Structs et Interfaces",
+        "image": "images-Cours/go.png",
+        "contenu": "Go n'a pas de classes au sens traditionnel. Il utilise des 'structs' pour les données et des interfaces 'implicites' pour le polymorphisme. Cette approche rend le code simple à lire et extrêmement performant à l'exécution."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Rust",
+    "description": "Langage moderne pour la sécurité et la performance",
+    "image": "images-Cours/rust.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction à Rust",
+        "image": "images-Cours/rust.png",
+        "contenu": "Rust résout les problèmes de gestion de mémoire du C++ sans utiliser de ramasse-miettes (garbage collector), grâce à son système de 'possession' (ownership) et d'emprunt (borrowing). Il permet d'écrire du code système ultra-performant tout en garantissant l'absence de failles de sécurité mémoire."
+      },
+      {
+        "titre": "Gestion d'erreurs (Result/Option)",
+        "image": "images-Cours/rust.png",
+        "contenu": "Rust n'utilise pas d'exceptions. Il force le développeur à gérer tous les cas possibles via les types Result et Option. Cela rend les applications Rust incroyablement stables car les erreurs imprévues sont quasi impossibles à la compilation."
+      },
+      {
+        "titre": "Cargo et Modules",
+        "image": "images-Cours/rust.png",
+        "contenu": "Cargo est l'outil tout-en-un de Rust pour la compilation, la gestion des dépendances (crates) et les tests. Ce module explique comment organiser un projet en modules et utiliser les bibliothèques de la communauté de manière sécurisée."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Dart",
+    "description": "Langage pour Flutter et apps multiplateformes",
+    "image": "images-Cours/dart.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Bases de Dart",
+        "image": "images-Cours/dart.png",
+        "contenu": "Dart est un langage optimisé pour le client, développé par Google. Il supporte la compilation JIT (Just-In-Time) pour un développement rapide et AOT (Ahead-Of-Time) pour des applications fluides. C'est le moteur derrière le framework Flutter, permettant de compiler des apps natives iOS et Android depuis un seul code source."
+      },
+      {
+        "titre": "Flutter Widgets",
+        "image": "images-Cours/dart.png",
+        "contenu": "Dans Flutter, tout est un Widget. On apprend à composer l'interface avec des widgets structurels (Container, Row, Column) et des widgets d'état (Stateful vs Stateless) pour créer des designs modernes et animés."
+      },
+      {
+        "titre": "Gestion d'état (Provider/Riverpod)",
+        "image": "images-Cours/dart.png",
+        "contenu": "Gérer les données à travers une application mobile nécessite des outils comme Provider ou Riverpod. Ce cours enseigne comment faire circuler l'information de manière réactive entre les différents écrans de l'app."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Scala",
+    "description": "Langage fonctionnel et objet pour le backend",
+    "image": "images-Cours/scala.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction à Scala",
+        "image": "images-Cours/scala.png",
+        "contenu": "Scala (Scalable Language) s'exécute sur la JVM et fusionne les paradigmes orientés objet et fonctionnels. Il propose un typage statique très avancé et est largement utilisé dans le traitement de données massives (Big Data) avec Apache Spark, ainsi que pour les systèmes distribués hautement scalables."
+      },
+      {
+        "titre": "Programmation Fonctionnelle",
+        "image": "images-Cours/scala.png",
+        "contenu": "Apprenez l'immutabilité, les fonctions d'ordre supérieur et le 'Pattern Matching'. Ces concepts permettent d'écrire du code plus court, plus prévisible et plus facile à tester que le code impératif classique."
+      },
+      {
+        "titre": "Traitement de données (Spark)",
+        "image": "images-Cours/scala.png",
+        "contenu": "Découvrez pourquoi Scala est le langage roi du Big Data. Ce module introduit l'utilisation de Scala avec Apache Spark pour traiter des pétaoctets de données de manière distribuée sur des clusters de serveurs."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "R",
+    "description": "Langage pour l’analyse de données",
+    "image": "images-Cours/r.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Bases de R",
+        "image": "images-Cours/r.png",
+        "contenu": "R est un environnement dédié au calcul statistique et aux graphiques. Il possède un vaste écosystème de packages (via le CRAN) comme ggplot2 pour la visualisation ou dplyr pour la manipulation de données. C'est l'outil de référence pour les statisticiens et les chercheurs en data science."
+      },
+      {
+        "titre": "Data Viz avec ggplot2",
+        "image": "images-Cours/r.png",
+        "contenu": "La visualisation est le point fort de R. Avec ggplot2, apprenez à créer des graphiques complexes, des cartes de chaleur et des diagrammes de dispersion de qualité professionnelle pour l'aide à la décision."
+      },
+      {
+        "titre": "Tidyverse et Data Wrangling",
+        "image": "images-Cours/r.png",
+        "contenu": "Le Tidyverse est une collection de packages qui rend le nettoyage et la préparation des données (wrangling) intuitifs. Apprenez à transformer des données brutes et 'sales' en datasets exploitables pour l'analyse statistique."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "MATLAB",
+    "description": "Langage pour calcul scientifique et simulations",
+    "image": "images-Cours/matlab.png",
+    "lien": "partie.html",
+    "parties": [
+      {
+        "titre": "Introduction à MATLAB",
+        "image": "images-Cours/matlab.png",
+        "contenu": "MATLAB (Matrix Laboratory) est une plateforme de calcul numérique haute performance. Il facilite la manipulation des matrices, l'affichage de fonctions et de données, et l'implémentation d'algorithmes. Il est utilisé massivement en ingénierie, en traitement du signal et pour la modélisation physique via Simulink."
+      },
+      {
+        "titre": "Simulink et Modélisation",
+        "image": "images-Cours/matlab.png",
+        "contenu": "Simulink est une extension graphique de MATLAB pour la simulation de systèmes multi-domaines. Apprenez à concevoir des systèmes de contrôle, à simuler des circuits électriques ou des systèmes mécaniques sans écrire une ligne de code."
+      },
+      {
+        "titre": "Traitement d'images et Signal",
+        "image": "images-Cours/matlab.png",
+        "contenu": "MATLAB possède des boîtes à outils (toolboxes) spécialisées. Ce module explore le traitement numérique du signal (filtres) et le traitement d'images (détection d'objets), essentiels dans l'industrie aéronautique et automobile."
+      }
+    ]
   }
 ]
