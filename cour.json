@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "HTML",
+    "description": "Apprendre la structure d’un site web",
+    "image": "images-Cours/html.png",
+    "lien": "html.html"
+   
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "description": "Styliser un site web",
+    "image": "images-Cours/css.png",
+    "lien": "css.html"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "description": "Rendre un site web interactif",
+    "image": "images-Cours/javascript.png",
+    "lien": "javascript.html"
+    
+  },
+  {
+    "id": 4,
+    "title": "React",
+    "description": "Créer des interfaces utilisateur dynamiques",
+    "image": "images-Cours/react.png"
+  },
+  {
+    "id": 5,
+    "title": "Node.js",
+    "description": "Développer le backend d’une application web",
+    "image": "images-Cours/nodejs.png"
+  },
+  {
+    "id": 6,
+    "title": "Python",
+    "description": "Langage polyvalent pour le web et la data",
+    "image": "images-Cours/python.png"
+  }
+]
