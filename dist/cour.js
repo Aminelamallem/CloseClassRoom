@@ -88,4 +88,3 @@ fetch("./cour.json")
 })
     .catch(err => console.error("Erreur :", err));
 export { Cour };
-//# sourceMappingURL=cour.js.map

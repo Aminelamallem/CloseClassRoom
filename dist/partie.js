@@ -16,4 +16,3 @@ class Partie {
     }
 }
 export { Partie };
-//# sourceMappingURL=partie.js.map
