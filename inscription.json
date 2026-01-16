@@ -12,5 +12,12 @@
     "firstname": "Oggy",
     "email": "oggy.max@mail.com",
     "passwordHash": "07a695986ffb3351d82ff0e0c3261fd5d619fd6088f8ba6aaacb891ce43175a0"
+  },
+  {
+    "id": 1768559135392,
+    "name": "Baji Keusike",
+    "firstname": "amine",
+    "email": "baji.lamallem@gmail.com",
+    "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
   }
 ]
