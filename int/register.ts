@@ -60,7 +60,7 @@ signupForm?.addEventListener("submit", async (e: Event) => {
 
     // Envoi des données au serveur Node.js
     try {
-        const response = await fetch("http://localhost:3000/inscription", {
+        const response = await fetch("http://localhost:3000/register", {
             method: "POST",
             headers: { 
                 "Content-Type": "application/json" 
@@ -82,6 +82,3 @@ signupForm?.addEventListener("submit", async (e: Event) => {
         alert("Impossible de contacter le serveur. Est-il lancé (node server.js) ?");
     }
 });
-
-    
-    

@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const FILE_PATH = './inscription.json';
+const FILE_PATH = './data/user.json';
 
 // --- ROUTE DE CONNEXION (LOGIN) ---
 app.post('/login', (req, res) => {
@@ -30,7 +30,7 @@ app.post('/login', (req, res) => {
 });
 
 // --- ROUTE D'INSCRIPTION ---
-app.post('/inscription', (req, res) => {
+app.post('/register', (req, res) => {
     const nouvelUtilisateur = req.body;
 
     fs.readFile(FILE_PATH, 'utf8', (err, data) => {

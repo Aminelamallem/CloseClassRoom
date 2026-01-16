@@ -1,4 +1,4 @@
-import { Partie } from "./partie.js";
+import { Partie } from "../dist/partie.js";
 
 class Cour {
     constructor(
@@ -88,7 +88,7 @@ function afficherCours(cours: Cour[]) {
 }
 
 // Chargement du fichier JSON
-fetch("./cour.json")
+fetch("../data/cour.json")
     .then(res => {
         if (!res.ok) throw new Error("Impossible de charger cour.json");
         return res.json();

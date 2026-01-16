@@ -1,4 +1,4 @@
-import { Partie } from "./partie.js";
+import { Partie } from "../dist/partie.js";
 class Cour {
     id;
     title;
@@ -76,7 +76,7 @@ function afficherCours(cours) {
     });
 }
 // Chargement du fichier JSON
-fetch("./cour.json")
+fetch("../data/cour.json")
     .then(res => {
     if (!res.ok)
         throw new Error("Impossible de charger cour.json");
@@ -88,4 +88,3 @@ fetch("./cour.json")
 })
     .catch(err => console.error("Erreur :", err));
 export { Cour };
-//# sourceMappingURL=cour.js.map

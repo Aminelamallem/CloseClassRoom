@@ -12,5 +12,19 @@
     "firstname": "Oggy",
     "email": "oggy.max@mail.com",
     "passwordHash": "07a695986ffb3351d82ff0e0c3261fd5d619fd6088f8ba6aaacb891ce43175a0"
+  },
+  {
+    "id": 1768554245235,
+    "name": "test",
+    "firstname": "testname",
+    "email": "test@gmail.com",
+    "passwordHash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5"
+  },
+  {
+    "id": 1768571685202,
+    "name": "gwen",
+    "firstname": "gwen",
+    "email": "gwen@gmail.com",
+    "passwordHash": "e7ddef299291b3f9d0c9d9bf46f9e76ef006ff2a83caa670e654b9a5efc9e164"
   }
 ]
