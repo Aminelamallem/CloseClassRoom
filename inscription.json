@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1768486505924,
+    "name": "SIMPSON",
+    "firstname": "Bart",
+    "email": "bart.simpson@sfr.fr",
+    "passwordHash": "9fa10fc879d17c2711872c9ddb2d9b4bc792b5f326d0eceb94f81e629caf1222"
+  },
+  {
+    "id": 1768489328912,
+    "name": "MAX",
+    "firstname": "Oggy",
+    "email": "oggy.max@mail.com",
+    "passwordHash": "07a695986ffb3351d82ff0e0c3261fd5d619fd6088f8ba6aaacb891ce43175a0"
+  }
+]
